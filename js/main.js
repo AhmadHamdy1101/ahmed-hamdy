@@ -41,9 +41,14 @@ AOS.init();
 
 /*hide loader */
 let loader =document.querySelector(".loader");
+let loaders =document.querySelector(".loaders");
 window.onload = () =>{
     setTimeout(function () {
-        loader.style.opacity = "0"
-        loader.style.display = "none"
+        loader.style.opacity = "0";
+        loader.style.display = "none";
+        loaders.style.opacity = "0";
+        loaders.style.display = "none";
     }, 1500)
 }
+
+

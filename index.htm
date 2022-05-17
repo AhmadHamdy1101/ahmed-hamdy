@@ -10,13 +10,17 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    
+
     <title>Ahmed Hamdy</title>
+    
 </head>
 <body>
+   
     <!------------start loader------------->
-    <div class="loader">
-        <img src="images/loading.gif" alt="">
-    </div>
+    <div class="loaders">
+        <div class="loader color-pulse-ball"></div>
+</div>
         <!-----------end loader------------------>
 
     
@@ -215,6 +219,16 @@
         </div>
     </section>
     <!--------------end skills section--------------------->
+
+    <!---dark mode-->
+    <div class="sittings">
+        <button class="stting-btn" onclick="showStting()">
+            <i class="fa-solid fa-gear"></i>
+        </button>
+        <button class="change-mode-btn" id="change-mode-btn" aria-label="toggle dark mode">
+            <i class="fa-solid fa-circle-half-stroke"></i>
+        </button>
+    </div>
     <footer>
         <div class="container">
         <p>&#xA9;Copyright 2022 by AhmedHamdy . All Rights Reseved</p>
@@ -229,6 +243,8 @@
     <script src="https://kit.fontawesome.com/eb8dec17ac.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/darkMode.js"></script>
     <script src="js/main.js"></script>
+
 </body>
 </html>
